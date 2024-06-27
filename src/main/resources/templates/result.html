@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<h1>Your Result</h1>
+<p>Your score is: <span th:text="${score}"></span></p>
+<a th:href="@{/}">Go to Home</a>
+</body>
+</html>
